@@ -6,7 +6,7 @@ public class ex10 {
 	public static void main(String[] args){
 		int score = 0;
 		char grade = ' ';
-		System.out.print("´ç½ÅÀÇ Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä.(1~100)>");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½.(1~100)>");
 		Scanner scanner = new Scanner(System.in);
 		String tmp = scanner.nextLine();
 		score = Integer.parseInt(tmp);
@@ -26,6 +26,7 @@ public class ex10 {
 				
 		}
 		
-		System.out.println("´ç½ÅÀÇ ÇÐÁ¡Àº "+grade+"ÀÔ´Ï´Ù.");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ "+grade+"ï¿½Ô´Ï´ï¿½.");
+		scanner.close();
 	}
 }

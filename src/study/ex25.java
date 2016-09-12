@@ -4,7 +4,7 @@ public class ex25 {
 	public static void main(String[] args){
 		int sum = 0;
 		int num = 0;
-		System.out.print("¼öÀÔ·Â");
+		System.out.print("ï¿½ï¿½ï¿½Ô·ï¿½");
 		Scanner scanner = new Scanner(System.in);
 		String tmp = scanner.nextLine();
 		num = Integer.parseInt(tmp);
@@ -14,6 +14,7 @@ public class ex25 {
 			System.out.printf("sum=%3d, num=%d%n", sum, num);
 			num/=10;
 		}
-		System.out.println("°¢ÀÚ¸®¼öÇÕ:"+sum);
+		System.out.println("ï¿½ï¿½ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½:"+sum);
+		scanner.close();
 	}
 }
